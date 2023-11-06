@@ -1304,26 +1304,13 @@ section {
   text-align: center;
 }
 
-.team .member .social a {
+.team .member .social p {
   transition: color 0.3s;
-  color: #222222;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: rgba(16, 110, 234, 0.8);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
-}
-
-.team .member .social a:hover {
-  background: #3b8af2;
-}
-
-.team .member .social i {
-  font-size: 18px;
+  background: rgba(0, 0, 0, 0.384);
+  padding: 10px 30px;
 }
 
 .team .member .member-info {
@@ -1337,18 +1324,12 @@ section {
   color: #222222;
 }
 
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
 .team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
+  line-height: 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 16px;
+  text-align: center;
 }
 
 .team .member:hover .social {
