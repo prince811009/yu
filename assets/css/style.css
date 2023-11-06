@@ -613,7 +613,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .section-title h2 {
@@ -869,7 +869,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 70px 0 60px;
+  padding: 0px 0 60px;
 }
 
 .counts .count-box {
@@ -878,6 +878,7 @@ section {
   position: relative;
   text-align: center;
   background: #f1f6fe;
+  margin: 5px 0px;
 }
 
 .counts .count-box i {
@@ -1177,7 +1178,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px 8px 15px;
+  padding: 10px 10px 8px 10px;
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -1418,7 +1419,7 @@ section {
   font-size: 16px;
   font-weight: 600;
   color: #777777;
-  background: #f8f8f8;
+  background: #d9dfee;
 }
 
 .pricing .box h4 {
