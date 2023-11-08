@@ -286,15 +286,4 @@
    */
   new PureCounter();
 
-  /**
-   * Time line 
-   */
-
-
-   
-
-
-
-
-
 })()

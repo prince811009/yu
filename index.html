@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -28,9 +28,8 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: BizLand
   * Updated: Sep 18 2023
-  * Author: 頁頁網頁設計
+  * Author: 柴柴網頁設計
   ======================================================== -->
 </head>
 
@@ -41,7 +40,7 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">ssmdt1988@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>0975195153</span></i>
+        <i class="bi bi-line d-flex align-items-center ms-4"><span>LINE官方客服</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -63,10 +62,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
-          <li><a class="nav-link scrollto" href="#about">如何開始</a></li>
-          <li><a class="nav-link scrollto" href="#services">方案價格</a></li>
+          <li><a class="nav-link scrollto" href="#team">如何開始</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">方案價格</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">網站樣式挑選</a></li>
-          <li><a class="nav-link scrollto" href="#team">常見問題</a></li>
+          <li><a class="nav-link scrollto" href="#faq">常見問題</a></li>
+          <!--
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -84,7 +84,9 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          -->
+
+          <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -98,11 +100,11 @@
       <h1>最適合工作室的<span>形象網站</span></h1>
       <h2>50 + 專業網站樣式選擇</h2>
       <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">我要選樣式</a>
+        <a href="#team" class="btn-get-started scrollto">如何開始</a>
         <!-- 
           <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
         -->
-        <a href="#about" class="btn-get-price scrollto">價格方案</a>
+        <a href="#portfolio" class="btn-get-price scrollto">我要挑選樣式</a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -125,9 +127,11 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/banner/4.png" class="img-fluid" alt="">
+                <!--
                 <div class="social">
                   <p>了解更多</p>
                 </div>
+                -->
               </div>
               <div class="member-info">
                 <p>讓更多人了解你的專業</p>
@@ -139,9 +143,11 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/banner/2.png" class="img-fluid" alt="">
+                <!--
                 <div class="social">
                   <p>了解更多</p>
                 </div>
+                -->
               </div>
               <div class="member-info">
                 <p>讓客戶了解你的服務項目</p>
@@ -153,9 +159,11 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/banner/1.png" class="img-fluid" alt="">
+                <!--
                 <div class="social">
                   <p>了解更多</p>
                 </div>
+                -->
               </div>
               <div class="member-info">
                 <p>與客戶更多連結與互動</p>
@@ -227,7 +235,7 @@
         <div class="section-title">
           <h2>超值服務</h2>
           <h3>專業 <span>工程師團隊</span></h3>
-          <p>4大網站資料與安全服務</br>+</br>2項超值服務</p>
+          <p><span style="color: rgb(245 93 0); font-weight: 600;">4 </span>大網站資料與安全服務</br>+</br><span style="color: rgb(245 93 0); font-weight: 600;">2 </span>項超值服務</p>
         </div>
 
         <div class="row">
@@ -419,6 +427,10 @@
 
         </div>
 
+        <div class="btn-wrap">
+          <a href="#" class="btn-buy">看更多</a>
+        </div>
+
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -590,15 +602,8 @@
         </div>
 
         <!-- Calendly inline widget begin -->
-        <div id="calendly-embed" style="min-width:320px;height:700px;"></div>
-
+        <div class="calendly-inline-widget" data-url="https://calendly.com/prince811009fy/web?hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-        <script>
-          Calendly.initInlineWidget({
-          url: 'https://calendly.com/prince811009fy/web',
-          parentElement: document.getElementById('calendly-embed')
-          });
-        </script>
         <!-- Calendly inline widget end -->
 
       </div>
@@ -612,7 +617,7 @@
         <div class="section-title">
           <h2>Q&A</h2>
           <h3>常見問題 <span>Q&A</span></h3>
-          <p>若有其他問題，歡迎加入<span style="color: green; font-weight: 800;">LINE官網</span>聯繫我們，</br>我們將會盡快為您解答 !</p>
+          <p>若有其他問題，歡迎加入<span style="color: green; font-weight: 800;">LINE官方</span>聯繫我們，</br>我們將會盡快為您解答 !</p>
         </div>
 
         <div class="row justify-content-center">
@@ -620,55 +625,64 @@
             <ul class="faq-list">
 
               <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">網站製作時間需要多久?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    在您預約網站開始建置的時間後，我們提供 2 週的時間來繳交網站所需要的圖片和文案素材，素材繳交完畢後，工程師架設網站時間需 14 個工作日 (不含例假日 )，越快提供完整的素材也可以更快讓網站開始動工喔 !
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">我的工作室適合做形象網站嗎 ?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    如果不確定你的網站的需求，或是有其他問題，都歡迎直接用<span style="color: green; font-weight: 800;">LINE官方</span>跟我們討論喔 !
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">網站有什麼設計樣式可以選 ?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    目前有多款網頁設計樣式可以選擇，可以慢慢挑選喜歡的樣式再開始製作網站。如果沒有適合的樣式，也歡迎跟我們討論需求。
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">收費方式<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    可以依照需求選擇不同長度的租約方案，時間越長費用會較划算，並且也有技術支援的工程師顧問持續協助網站的各種狀況。
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">付款方式<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq5" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    使用綠界科技Ecpay第三方支付平台進行付款，協助雙方交易的安全性，另外也提供分期付款的方式進行，讓支付方式更加輕鬆便利。
                   </p>
                 </div>
               </li>
 
               <li>
-                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">可以設定 SEO 優化嗎 ?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq6" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    網站製作皆包含 SEO 的優化方案，讓您的網站可以更能夠被消費者看到。
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">我想要客製化的網站可以嗎 ?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    客製化的網站、後台管理系統也可以製作喔 ! 如果有額外的需求也可以私訊我們的<span style="color: green; font-weight: 800;">LINE官方。
                   </p>
                 </div>
               </li>
@@ -699,6 +713,23 @@
             </div>
           </div>
 
+          <div class="col-lg-3">
+            <div class="info-box mb-4">
+              <i class="bi bi-facebook"></i>
+              <h3>facebook官方</h3>
+              <p>柴柴網頁設計</p>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-3">
+            <div class="info-box mb-4">
+              <i class="bi bi-instagram"></i>
+              <h3>facebook官方</h3>
+              <p>柴柴網頁設計</p>
+            </div>
+          </div>
+
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
@@ -706,51 +737,6 @@
               <p>ssmdt1988@gmail.com</p>
             </div>
           </div>
-
-          <div class="col-lg-3">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>辦公室據點</h3>
-              <p>台南市佳里區勝利路290號</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <!--
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-          -->
-
-           <!--
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-          -->
 
         </div>
 
@@ -769,7 +755,7 @@
             <h4>加入電子報</h4>
             <p>不定期發布網站最新技術與行銷文章</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="訂閱">
             </form>
           </div>
         </div>
@@ -781,13 +767,14 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>BizLand<span>.</span></h3>
+            <h3>柴柴設計<span>.</span></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              柴柴企業社<br>
+              <strong>統一編號:</strong> 89044277<br><br>
+
+              <strong>Line ID:</strong> @joannennaoj<br>
+              <strong>Email:</strong> ssmdt1988@gmail.com<br>
+              <strong>客服時間:</strong> 星期一至五 09:00-18:00<br>
             </p>
           </div>
 
@@ -814,13 +801,12 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>社群媒體</h4>
+            <p>歡迎隨時聯繫我們~</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-line"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
@@ -831,7 +817,7 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>BizLand</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>柴柴設計</span></strong>. All Rights Reserved
       </div>
       
     </div>
@@ -912,19 +898,6 @@
 
     });
   </script>
-
-
-  <!-- Calendly part -->
-  <!--
-  <script>
-    Calendly.initInlineWidget({
-      url: 'https://calendly.com/prince811009fy',
-      parentElement: document.getElementById('prince811009fy'),
-      prefill: {},
-      utm: {}
-    });
-  </script>
-  -->
 
 </body>
 
