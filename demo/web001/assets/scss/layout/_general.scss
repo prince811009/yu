@@ -1,0 +1,111 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgba(var(--primary-color-rgb), 0.7);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-color);
+  font-family: var(--heading-font);
+}
+
+section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  overflow: clip;
+}
+
+/*--------------------------------------------------------------
+# Section Title
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+
+    &:before, &:after {
+      content: '';
+      width: 50px;
+      height: 2px;
+      background: var(--primary-color);
+      display: inline-block;
+    }
+
+    &:before {
+      margin: 0 15px 10px 0;
+    }
+
+    &:after {
+      margin: 0 0 10px 15px;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Page Title & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+    
+  .heading {
+    padding: 80px 0;
+    border-top: 1px solid rgba(var(--default-color-rgb), .1);
+    
+    h1 {
+      font-size: 38px;
+      font-weight: 700;
+      color: var(--secondary-color);
+    }
+  }
+
+  nav {
+    background-color: rgba(var(--default-color-rgb), .05);
+    padding: 20px 0;
+
+    ol {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+  
+      li + li {
+        padding-left: 10px;
+      }
+  
+      li + li::before {
+        content: "/";
+        display: inline-block;
+        padding-right: 10px;
+        color: rgba(var(--default-color-rgb), .3);
+      }
+    }
+  }
+
+}
