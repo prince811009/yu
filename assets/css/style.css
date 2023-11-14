@@ -1531,32 +1531,48 @@ section {
 }
 
 .timeline .timeline-item .timeline-img-header2 {
+<<<<<<< HEAD
   /* background: url('../img/banner/39.png') center center no-repeat; */
   background: url('../img/banner/45.png') center center no-repeat;
+=======
+  background: url('../img/banner/time_wrap_1.png') center center no-repeat;
+>>>>>>> c855bb12be0d76ce0b783faafe9a05c056981a1e
   background-size: cover;
   width: auto;
   height: 300px;
 }
 
 .timeline .timeline-item .timeline-img-header3 {
+<<<<<<< HEAD
   /* background: url('../img/banner/36.png') center center no-repeat; */
   background: url('../img/banner/46.png') center center no-repeat;
+=======
+  background: url('../img/banner/time_wrap_2.png') center center no-repeat;
+>>>>>>> c855bb12be0d76ce0b783faafe9a05c056981a1e
   background-size: cover;
   width: auto;
   height: 300px;
 }
 
 .timeline .timeline-item .timeline-img-header4 {
+<<<<<<< HEAD
   /* background: url('../img/banner/37.png') center center no-repeat; */
   background: url('../img/banner/47.png') center center no-repeat;
+=======
+  background: url('../img/banner/time_wrap_3.png') center center no-repeat;
+>>>>>>> c855bb12be0d76ce0b783faafe9a05c056981a1e
   background-size: cover;
   width: auto;
   height: 300px;
 }
 
 .timeline .timeline-item .timeline-img-header5 {
+<<<<<<< HEAD
   /* background: url('../img/banner/41.png') center center no-repeat; */
   background: url('../img/banner/48.png') center center no-repeat;
+=======
+  background: url('../img/banner/time_wrap_4.png') center center no-repeat;
+>>>>>>> c855bb12be0d76ce0b783faafe9a05c056981a1e
   background-size: cover;
   width: auto;
   height: 300px;
